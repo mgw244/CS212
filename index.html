@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mercedez Wright - Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1 class="name">Mercedez Wright</h1>
+    <p class="role">Aspiring IT Professional: Network & Cybersecurity</p>
+    <nav class="jump">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2 class="section-title">About</h2>
+    <p>
+      I'm working toward a career in IT, with a particular interest in cybersecurity and in helping people solve the
+      technology problems that get in the way of their day. I like the process of learning how computer systems actually
+      work under the hood, from troubleshooting a single device to understanding how networks connect and protect everything
+      behind the scenes. My goal is to build a strong, practical understanding of computer systems and networking, and to
+      keep growing that knowledge throughout my career.
+    </p>
+    <p class="pivot">
+      Business Management -&gt; Information Technology
+    </p>
+  </section>
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-group">
+      <h3>Technical</h3>
+      <div class="chips">
+        <kbd>HTML &amp; CSS</kbd>
+        <kbd>Computer Troubleshooting</kbd>
+        <kbd>Networking Fundamentals</kbd>
+        <kbd>Windows &amp; Mac Support</kbd>
+        <kbd>Order &amp; Database Systems</kbd>
+        <kbd>Microsoft Office</kbd>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Business &amp; Soft Skills</h3>
+      <div class="chips">
+        <kbd>Problem-Solving</kbd>
+        <kbd>Customer Communication</kbd>
+        <kbd>Organization</kbd>
+        <kbd>Attention to Detail</kbd>
+        <kbd>Team Collaboration</kbd>
+        <kbd>Adaptability</kbd>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project">
+      <h3>Local Network File Transfer App</h3>
+      <p>
+        A desktop utility that lets devices on the same local network discover each other and
+        send files directly, without relying on cloud storage or email as a middleman. The app
+        scans the LAN to list available devices, opens a direct socket connection between sender
+        and receiver, and streams the file in chunks so larger transfers do not have to sit fully
+        in memory. It also handles the basics that make a transfer tool actually usable: showing
+        transfer progress, confirming when a file finishes writing to disk, and gracefully handling
+        a dropped connection mid-transfer.
+      </p>
+    </div>
+    <div class="project">
+      <h3>Mobile-to-PC Controller Driver</h3>
+      <p>
+        A tool that turns a phone into a working game controller for a PC by sending input data
+        over the local network. The mobile side captures button presses, joystick movement, and
+        triggers, then packages that input and sends it to the PC with low enough latency to feel
+        responsive during actual gameplay. On the PC side, a virtual controller driver takes that
+        incoming data and presents it to the operating system as a standard controller, so games
+        and other software can read it the same way they would a physical gamepad, with no extra
+        configuration needed on the game's end.
+      </p>
+    </div>
+  </section>
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="entry">
+      <h3>Associate of Applied Science, Business Management</h3>
+      <p class="meta">Estrella Mountain Community College - 2025</p>
+    </div>
+    <div class="entry">
+      <h3>Bachelor of Science, Information Technology</h3>
+      <p class="meta">
+        <abbr title="Northern Arizona University">NAU</abbr> - Expected 2029
+      </p>
+    </div>
+  </section>
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="entry">
+      <h3>Warehouse Associate</h3>
+      <p>
+        Worked directly with computer systems to communicate with customers about their orders and
+        manage order records from start to finish, including data entry, tracking order status,
+        resolving discrepancies, and keeping accurate digital records. This role built a practical,
+        everyday familiarity with business software and gave me hands-on experience troubleshooting
+        issues before they became bigger problems.
+      </p>
+    </div>
+  </section>
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <ul class="contact-list">
+      <li><span class="label">Email</span> <a href="mailto:mgw244@nau.edu">mgw244@nau.edu</a></li>
+      <li><span class="label">Phone</span> <a href="tel:+16028141830">602-814-1830</a></li>
+      <li><span class="label">Location</span> Avondale, Arizona</li>
+    </ul>
+    <small>Feel free to reach out about opportunities, questions, or feedback.</small>
+  </section>
+
+</div>
+</body>
+</html>
